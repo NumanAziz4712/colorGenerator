@@ -2,7 +2,6 @@ import React from 'react';
 import { ClipboardCheckIcon } from '@heroicons/react/solid';
 
 const SingleColor = ({ rgb, index, weight, hex }) => {
-  const bgr = rgb.join(',');
   const hexVal = `#${hex}`;
   const copyClr = () => {
     navigator.clipboard.writeText(hexVal);

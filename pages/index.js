@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import Values from 'values.js';
-import SingleColor from '../components/singleColor';
+import SingleColor from '../components/SingleColor';
 
 export default function Home() {
   const [color, setColor] = useState('');
